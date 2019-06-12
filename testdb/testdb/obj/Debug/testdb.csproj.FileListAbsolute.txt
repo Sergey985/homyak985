@@ -1,0 +1,27 @@
+c:\users\сергей\documents\visual studio 2012\Projects\testdb\testdb\bin\Debug\testdb.exe.config
+c:\users\сергей\documents\visual studio 2012\Projects\testdb\testdb\bin\Debug\testdb.exe
+c:\users\сергей\documents\visual studio 2012\Projects\testdb\testdb\bin\Debug\testdb.pdb
+c:\users\сергей\documents\visual studio 2012\Projects\testdb\testdb\bin\Debug\MySql.Data.dll
+c:\users\сергей\documents\visual studio 2012\Projects\testdb\testdb\bin\Debug\MySql.Data.Entity.dll
+c:\users\сергей\documents\visual studio 2012\Projects\testdb\testdb\obj\Debug\testdb.Form1.resources
+c:\users\сергей\documents\visual studio 2012\Projects\testdb\testdb\obj\Debug\testdb.Properties.Resources.resources
+c:\users\сергей\documents\visual studio 2012\Projects\testdb\testdb\obj\Debug\testdb.csproj.GenerateResource.Cache
+c:\users\сергей\documents\visual studio 2012\Projects\testdb\testdb\obj\Debug\testdb.exe
+c:\users\сергей\documents\visual studio 2012\Projects\testdb\testdb\obj\Debug\testdb.pdb
+C:\Users\Сергей\documents\visual studio 2012\Projects\testdb\testdb\obj\Debug\testdb.AddNewEl.resources
+C:\Users\Сергей\documents\visual studio 2012\Projects\testdb\testdb\obj\Debug\testdb.Language.resources
+C:\Users\Сергей\Documents\Visual Studio 2012\Projects\testdb\testdb\obj\Debug\testdb.popup.resources
+C:\Users\Sergey\Desktop\testdb\testdb\bin\Debug\testdb.exe.config
+C:\Users\Sergey\Desktop\testdb\testdb\obj\Debug\testdb.exe
+C:\Users\Sergey\Desktop\testdb\testdb\obj\Debug\testdb.pdb
+C:\Users\Sergey\Desktop\testdb\testdb\bin\Debug\testdb.exe
+C:\Users\Sergey\Desktop\testdb\testdb\bin\Debug\testdb.pdb
+C:\Users\Sergey\Desktop\testdb\testdb\obj\Debug\testdb.AddNewEl.resources
+C:\Users\Sergey\Desktop\testdb\testdb\obj\Debug\testdb.Form1.resources
+C:\Users\Sergey\Desktop\testdb\testdb\obj\Debug\testdb.Language.resources
+C:\Users\Sergey\Desktop\testdb\testdb\obj\Debug\testdb.popup.resources
+C:\Users\Sergey\Desktop\testdb\testdb\obj\Debug\testdb.Properties.Resources.resources
+C:\Users\Sergey\Desktop\testdb\testdb\obj\Debug\testdb.csproj.GenerateResource.Cache
+C:\Users\Sergey\Desktop\testdb\testdb\obj\Debug\testdb.csprojAssemblyReference.cache
+C:\Users\Sergey\Desktop\testdb\testdb\obj\Debug\testdb.csproj.CoreCompileInputs.cache
+C:\Users\Sergey\Desktop\testdb\testdb\obj\Debug\testdb.csproj.CopyComplete
