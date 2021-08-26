@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 
 driver = webdriver.Chrome(r'C:\DB\chromedriver')
-driver.get("https://preview.masterbucks.com/")
+driver.get("https://masterbucks.com/")
 print("Opening the main  page")
 driver.implicitly_wait(15)
 AcceptCoocies = driver.find_element_by_xpath("//mat-dialog-container[@id='mat-dialog-0']/app-show-popup/div/div[3]/button/span").click()
