@@ -16,7 +16,7 @@ engine = create_engine('sqlite:///C:/DB/test.db', echo=True)
 driver = webdriver.Chrome(r'C://DB//chromedriver')
 driver.implicitly_wait(10)
 
-branch = ["https://dev-dnprotect.wecandevelopit.com", "https://staging-dnprotect.wecandevelopit.com"]
+branch = ["", ""]
 # branch.__str__()
 tt=0
 ttt=0
@@ -36,8 +36,8 @@ while tt < 10:
             "",
             None,
             "/",
-            "https://cust-api-dev-dnprotect.wecandevelopit.com/api-docs",
-            "https://cust-api-staging-dnprotect.wecandevelopit.com/api-docs",
+            "",
+            "",
         }:
 
                 continue

@@ -5,7 +5,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 
 driver = webdriver.Chrome(r'C:\DB\chromedriver')
-driver.get("https://preview.masterbucks.com")
+driver.get("")
 
 
 print("Opening the main  page")
@@ -23,8 +23,8 @@ finally:
        raise Exception("Unable to load MB Wallet page!")
     else:
        print("Page Sign In displayed")
-usernamelogin = driver.find_element_by_id("username").send_keys("zbartenek@gmail.com")
-passwordlogin = driver.find_element_by_id("password").send_keys("Sistema321")
+usernamelogin = driver.find_element_by_id("username").send_keys("")
+passwordlogin = driver.find_element_by_id("password").send_keys("")
 buttonlogin = driver.find_element_by_id("kc-login").click()
 
 try:

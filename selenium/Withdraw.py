@@ -26,8 +26,8 @@ def func(withdraw):
             raise Exception("Unable to load MB Wallet page!")
         else:
             print("Page Sign In displayed")
-    usernamelogin = driver.find_element_by_id("username").send_keys("zbartenek@gmail.com")
-    passwordlogin = driver.find_element_by_id("password").send_keys("Sistema321")
+    usernamelogin = driver.find_element_by_id("username").send_keys("")
+    passwordlogin = driver.find_element_by_id("password").send_keys("")
     buttonlogin = driver.find_element_by_id("kc-login").click()
 
     USD = driver.find_element_by_xpath("//div[@id='USD']/div/span[2]").text
@@ -42,7 +42,7 @@ def func(withdraw):
     WithdrawButton = driver.find_element_by_xpath("//div[3]/div[2]/button[2]").click()
     Done = driver.find_element_by_xpath("//div[3]/div/div/div[2]/button").click()
 
-url = 'https://preview.masterbucks.com'
+url = ''
 number_of_threads = 2
 withdraw = Barrier(number_of_threads)
 threads = []

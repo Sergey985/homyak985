@@ -7,7 +7,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support import expected_conditions as EC
 
 driver = webdriver.Chrome(r'C:\DB\chromedriver')
-driver.get("https://preview.masterbucks.com")
+driver.get("")
 print("Opening the main  page")
 driver.implicitly_wait(15)
 AcceptCoocies = driver.find_element_by_xpath("//mat-dialog-container[@id='mat-dialog-0']/app-show-popup/div/div[3]/button/span").click()
@@ -23,8 +23,8 @@ finally:
         raise Exception("Unable to load MB Wallet page!")
     else:
         print("Page Sign In displayed")
-usernamelogin = driver.find_element_by_id("username").send_keys("zbartenek@gmail.com")
-passwordlogin = driver.find_element_by_id("password").send_keys("Sistema321")
+usernamelogin = driver.find_element_by_id("username").send_keys("")
+passwordlogin = driver.find_element_by_id("password").send_keys("")
 buttonlogin = driver.find_element_by_id("kc-login").click()
 
 
