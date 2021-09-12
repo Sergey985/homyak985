@@ -41,9 +41,17 @@ def func(withdraw):
     Input = driver.find_element_by_xpath("//input[@id='mat-input-5']").send_keys(2)
     WithdrawButton = driver.find_element_by_xpath("//div[3]/div[2]/button[2]").click()
     Done = driver.find_element_by_xpath("//div[3]/div/div/div[2]/button").click()
-
+    try:
+        element = WebDriverWait(driver, 15).until(
+            EC.presence_of_element_located((By.ID, "kc-login"))
+        )
+    finally:
+        if not "Sign in to Identity" in driver.title:
+            raise Exception("Unable to load MB Wallet page!")
+        else:
+            print("Page Sign In displayed")
 url = ''
-number_of_threads = 2
+number_of_threads = 1
 withdraw = Barrier(number_of_threads)
 threads = []
 
